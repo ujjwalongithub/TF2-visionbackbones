@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
 
-import vgg
+from image import vgg
 
 
 class VGGTest(tf.test.TestCase):
