@@ -26,7 +26,7 @@ def get_activation(input_batch, activation_name, layer_name):
         input_batch)
 
 
-@tf.function
+
 def conv_block(
         x,
         num_filters,
