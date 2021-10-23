@@ -77,9 +77,6 @@ def conv_block(
         data_format=data_format,
         use_bias=use_bias,
         padding=padding,
-        kernel_initializer=tf.keras.initializers.HeNormal(seed=0),
-        bias_initializer=tf.keras.initializers.HeNormal(seed=0),
-        kernel_regularizer=tf.keras.regularizers.L2(l2=0.00001),
         activation=None,
         name='{}/conv_preact'.format(base_name)
     )(x)
